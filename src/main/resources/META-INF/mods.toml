@@ -1,0 +1,64 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+
+[[mods]]
+modId="pinkexpansion"
+version="0.8.0"
+displayName="Pink Expansion"
+logoFile="Logo.png"
+credits="RobertOrange"
+authors="RobertOrange"
+description='''
+Pink expansion mod
+by RobertOrange
+'''
+
+[[dependencies.pinkexpansion]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pinkexpansion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pinkexpansion]]
+    modId = "terrablender"
+    mandatory = true
+    versionRange = "[1.18.2-1.1.0.99,)"
+    ordering = "BEFORE"
+    side = "BOTH"
+
+[[dependencies.pinkexpansion]]
+    modId="decorative_blocks"
+    mandatory=false
+    versionRange="[2.1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.pinkexpansion]]
+    modId="quark"
+    mandatory=false
+    versionRange="[2.3,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.pinkexpansion]]
+    modId="autoreglib"
+    mandatory=false
+    versionRange="[1.7,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.pinkexpansion]]
+    modId="farmersdelight"
+    mandatory=false
+    versionRange="[1.18.2-1.0.4,]"
+    ordering="AFTER"
+    side="BOTH"

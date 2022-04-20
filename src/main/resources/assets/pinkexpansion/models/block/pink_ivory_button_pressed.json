@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "pinkexpansion:block/pink_ivory_planks"
+  }
+}

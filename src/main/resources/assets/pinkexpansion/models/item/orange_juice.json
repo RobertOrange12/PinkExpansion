@@ -1,0 +1,6 @@
+{
+  "parent": "farmersdelight:item/mug",
+  "textures": {
+    "layer0": "pinkexpansion:item/orange_juice"
+  }
+}

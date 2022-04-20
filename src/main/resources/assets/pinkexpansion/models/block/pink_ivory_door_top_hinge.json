@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "pinkexpansion:block/pink_ivory_door_top",
+    "bottom": "pinkexpansion:block/pink_ivory_door_bottom"
+  }
+}

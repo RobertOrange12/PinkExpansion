@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "___",
+    "D D",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "item": "pinkexpansion:pink_ivory_slab"
+    },
+    "D": {
+      "item": "pinkexpansion:pink_ivory_trapdoor"
+    }
+  },
+  "result": {
+    "item": "pinkexpansion:pink_ivory_cabinet"
+  }
+}

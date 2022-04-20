@@ -1,0 +1,11 @@
+{
+  "parent": "pinkexpansion:block/pink_ivory_support_inventory",
+  "overrides": [
+    {
+      "predicate": {
+        "decorative_blocks:up": 1.0
+      },
+      "model": "pinkexpansion:block/pink_ivory_upside_down_support_inventory"
+    }
+  ]
+}

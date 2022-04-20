@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "support",
+  "pattern": [
+    "xx ",
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "pinkexpansion:pink_ivory_planks"
+    }
+  },
+  "result": {
+    "item": "pinkexpansion:pink_ivory_support",
+    "count": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "pinkexpansion:pink_ivory_planks"
+    }
+  },
+  "result": {
+    "item": "pinkexpansion:pink_ivory_door",
+    "count": 3
+  }
+}

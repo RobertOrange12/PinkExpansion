@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "pinkexpansion:block/pink_ivory_leaves"
+  }
+}

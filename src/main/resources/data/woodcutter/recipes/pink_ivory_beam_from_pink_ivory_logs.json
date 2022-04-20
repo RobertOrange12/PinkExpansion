@@ -1,0 +1,14 @@
+{
+  "type": "woodcutter:woodcutter",
+  "ingredient": {
+    "tag": "pinkexpansion:pink_ivory_logs"
+  },
+  "result": "pinkexpansion:pink_ivory_beam",
+  "count": 1,
+  "conditions" : [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "woodcutter"
+    }
+  ]
+}

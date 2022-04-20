@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "pinkexpansion:block/orange_crate_side",
+    "bottom": "pinkexpansion:block/crate_bottom",
+    "top": "pinkexpansion:block/orange_crate_top"
+  }
+}

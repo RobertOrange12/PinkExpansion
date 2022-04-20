@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pinkexpansion:orange"
+    },
+    {
+      "item": "pinkexpansion:orange"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "pinkexpansion:orange"
+    },
+    {
+      "item": "pinkexpansion:orange"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "pinkexpansion:orange_juice"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "quark:block/hedge_post",
+  "textures": {
+    "log": "pinkexpansion:block/pink_ivory_log",
+    "leaf": "pinkexpansion:block/pink_ivory_leaves"
+  }
+}

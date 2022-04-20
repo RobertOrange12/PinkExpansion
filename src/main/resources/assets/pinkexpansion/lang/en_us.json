@@ -1,0 +1,47 @@
+{
+  "block.pinkexpansion.pink_ivory_log": "Pink Ivory Log",
+  "block.pinkexpansion.pink_ivory_planks": "Pink Ivory Planks",
+  "block.pinkexpansion.pink_ivory_wood": "Pink Ivory Wood",
+  "block.pinkexpansion.stripped_pink_ivory_log": "Stripped Pink Ivory Log",
+  "block.pinkexpansion.stripped_pink_ivory_wood": "Stripped Pink Ivory Wood",
+  "block.pinkexpansion.pink_ivory_pressure_plate": "Pink Ivory Pressure Plate",
+  "block.pinkexpansion.pink_ivory_button": "Pink Ivory button",
+  "block.pinkexpansion.pink_ivory_stairs": "Pink Ivory Stairs",
+  "block.pinkexpansion.pink_ivory_fence": "Pink Ivory Fence",
+  "block.pinkexpansion.pink_ivory_fence_gate": "Pink Ivory Fence Gate",
+  "block.pinkexpansion.pink_ivory_slab": "Pink Ivory Slab",
+  "block.pinkexpansion.pink_ivory_sign": "Pink Ivory Sign",
+  "block.pinkexpansion.pink_ivory_door": "Pink Ivory Door",
+  "block.pinkexpansion.pink_ivory_leaves": "Pink Ivory Leaves",
+  "block.pinkexpansion.pink_ivory_sapling": "Pink Ivory Sapling",
+  "block.pinkexpansion.pink_ivory_trapdoor": "Pink Ivory Trapdoor",
+  "block.pinkexpansion.rose_gold_block": "Rose Gold Block",
+  "block.pinkexpansion.pink_ivory_vertical_slab": "Pink Ivory Vertical Slab",
+  "block.pinkexpansion.pink_ivory_ladder": "Pink Ivory Ladder",
+  "block.pinkexpansion.pink_ivory_bookshelf": "Pink Ivory Bookshelf",
+  "block.pinkexpansion.pink_ivory_post": "Pink Ivory Post",
+  "block.pinkexpansion.stripped_pink_ivory_post": "Stripped Pink Ivory Post",
+  "block.pinkexpansion.pink_ivory_hedge": "Pink Ivory Leaf Hedge",
+  "block.pinkexpansion.pink_ivory_leaf_carpet": "Pink Ivory Leaf Carpet",
+  "block.pinkexpansion.pink_ivory_chest": "Pink Ivory Chest",
+  "block.pinkexpansion.pink_ivory_trapped_chest": "Pink Ivory Trapped Chest",
+  "block.pinkexpansion.pink_ivory_beam": "Pink Ivory Beam",
+  "block.pinkexpansion.pink_ivory_palisade": "Pink Ivory Palisade",
+  "block.pinkexpansion.pink_ivory_seat": "Pink Ivory Seat",
+  "block.pinkexpansion.pink_ivory_support": "Pink Ivory Support",
+  "block.pinkexpansion.pink_ivory_cabinet": "Pink Ivory Cabinet",
+  "block.pinkexpansion.orange_crate": "Orange Crate",
+
+
+  "item.pinkexpansion.pink_ivory_boat": "Pink Ivory Boat",
+  "item.pinkexpansion.rose_gold_ingot": "Rose Gold Ingot",
+  "item.pinkexpansion.rose_gold_nugget": "Rose Gold Nugget",
+  "item.pinkexpansion.rose_gold_orange": "Rose Gold Orange",
+  "item.pinkexpansion.enchanted_rose_gold_orange": "Enchanted Rose Gold Orange",
+  "item.pinkexpansion.orange": "Orange",
+  "item.pinkexpansion.orange_juice": "Orange Juice",
+
+
+  "itemGroup.pinkexpansion": "Pink Expansion"
+
+}

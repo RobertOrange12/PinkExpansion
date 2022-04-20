@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "pinkexpansion:pink_ivory_planks"
+    }
+  },
+  "result": {
+    "item": "pinkexpansion:pink_ivory_fence_gate"
+  }
+}

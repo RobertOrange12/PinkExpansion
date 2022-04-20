@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pinkexpansion:rose_gold_ingot"
+    },
+    "X": {
+      "item": "pinkexpansion:orange"
+    }
+  },
+  "result": {
+    "item": "pinkexpansion:rose_gold_orange"
+  }
+}

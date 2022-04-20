@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pinkexpansion:orange"
+    }
+  },
+  "result": {
+    "item": "pinkexpansion:orange_crate"
+  }
+}

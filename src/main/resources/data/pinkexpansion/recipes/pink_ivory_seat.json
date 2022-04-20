@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "decorative_seats",
+  "pattern": [
+    "x  ",
+    "y  "
+  ],
+  "key": {
+    "x": {
+      "item": "pinkexpansion:pink_ivory_slab"
+    },
+    "y": {
+      "item": "pinkexpansion:pink_ivory_fence"
+    }
+  },
+  "result": {
+    "item": "pinkexpansion:pink_ivory_seat",
+    "count": 2
+  }
+}

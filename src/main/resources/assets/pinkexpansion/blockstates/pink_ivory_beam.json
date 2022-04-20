@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "pinkexpansion:block/pink_ivory_beam_x"
+    },
+    "axis=y": {
+      "model": "pinkexpansion:block/pink_ivory_beam_y"
+    },
+    "axis=z": {
+      "model": "pinkexpansion:block/pink_ivory_beam_z"
+    }
+  }
+}

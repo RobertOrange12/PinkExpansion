@@ -1,0 +1,42 @@
+{
+  "block.pinkexpansion.pink_ivory_log": "Tronco de márfil rosa",
+  "block.pinkexpansion.pink_ivory_planks": "Madera de márfil rosa",
+  "block.pinkexpansion.pink_ivory_wood": "Leño de márfil rosa",
+  "block.pinkexpansion.stripped_pink_ivory_log": "Tronco de roble oscuro sin corteza",
+  "block.pinkexpansion.stripped_pink_ivory_wood": "Leño de márfil rosa sin corteza",
+  "block.pinkexpansion.pink_ivory_pressure_plate": "Placa de presion de márfil rosa",
+  "block.pinkexpansion.pink_ivory_button": "Botón de márfil rosa",
+  "block.pinkexpansion.pink_ivory_stairs": "Escaleras de márfil rosa",
+  "block.pinkexpansion.pink_ivory_fence": "Valla de márfil rosa",
+  "block.pinkexpansion.pink_ivory_fence_gate": "Puerta de valla de márfil rosa",
+  "block.pinkexpansion.pink_ivory_slab": "Losa de márfil rosa",
+  "block.pinkexpansion.pink_ivory_sign": "Letrero de márfil rosa",
+  "block.pinkexpansion.pink_ivory_door": "Puerta de márfil rosa",
+  "block.pinkexpansion.pink_ivory_leaves": "Hojas de márfil rosa",
+  "block.pinkexpansion.pink_ivory_sapling": "Retoño de márfil rosa",
+  "block.pinkexpansion.pink_ivory_trapdoor": "Trampilla de márfil rosa",
+  "block.pinkexpansion.rose_gold_block": "Bloque de oro rosa",
+  "block.pinkexpansion.pink_ivory_vertical_slab": "Pink Ivory Vertical Slab",
+  "block.pinkexpansion.pink_ivory_ladder": "Pink Ivory Ladder",
+  "block.pinkexpansion.pink_ivory_bookshelf": "Pink Ivory Bookshelf",
+  "block.pinkexpansion.pink_ivory_post": "Pink Ivory Post",
+  "block.pinkexpansion.stripped_pink_ivory_post": "Stripped Pink Ivory Post",
+  "block.pinkexpansion.pink_ivory_hedge": "Pink Ivory Leaf Hedge",
+  "block.pinkexpansion.pink_ivory_leaf_carpet": "Pink Ivory Leaf Carpet",
+  "block.pinkexpansion.pink_ivory_chest": "Pink Ivory Chest",
+  "block.pinkexpansion.pink_ivory_trapped_chest": "Pink Ivory Trapped Chest",
+  "block.pinkexpansion.pink_ivory_cabinet": "Pink Ivory Cabinet",
+  "block.pinkexpansion.orange_crate": "Orange Crate",
+
+  "item.pinkexpansion.pink_ivory_boat": "Bote de márfil rosa",
+  "item.pinkexpansion.rose_gold_ingot": "Lingote de oro rosa",
+  "item.pinkexpansion.rose_gold_nugget": "Nugget de oro rosa",
+  "item.pinkexpansion.rose_gold_orange": "Naranja de oro rosa",
+  "item.pinkexpansion.enchanted_rose_gold_orange": "Naranja de oro rosa encantada",
+  "item.pinkexpansion.orange": "Naranja",
+  "item.pinkexpansion.orange_juice": "Jugo de naranja",
+
+
+  "itemGroup.pinkexpansion": "Expansion Rosa"
+
+}

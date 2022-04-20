@@ -1,0 +1,6 @@
+{
+  "parent": "quark:block/post",
+  "textures": {
+    "texture": "pinkexpansion:block/stripped_pink_ivory_log"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "pinkexpansion:pink_ivory_log",
+    "pinkexpansion:stripped_pink_ivory_log",
+    "pinkexpansion:pink_ivory_wood",
+    "pinkexpansion:stripped_pink_ivory_wood",
+    "pinkexpansion:pink_ivory_planks",
+    "pinkexpansion:pink_ivory_slab",
+    "pinkexpansion:pink_ivory_stairs",
+    "pinkexpansion:pink_ivory_fence",
+    "pinkexpansion:pink_ivory_fence_gate",
+    "pinkexpansion:pink_ivory_door",
+    "pinkexpansion:pink_ivory_trapdoor",
+    "pinkexpansion:pink_ivory_button",
+    "pinkexpansion:pink_ivory_pressure_plate",
+
+    "pinkexpansion:pink_ivory_vertical_slab",
+    "pinkexpansion:pink_ivory_post",
+    "pinkexpansion:stripped_pink_ivory_post",
+    "pinkexpansion:pink_ivory_bookshelf",
+    "pinkexpansion:pink_ivory_hedge",
+    "pinkexpansion:pink_ivory_ladder",
+    "pinkexpansion:pink_ivory_chest",
+    "pinkexpansion:pink_ivory_trapped_chest",
+
+    "#pinkexpansion:beams",
+    "#pinkexpansion:palisades",
+    "#pinkexpansion:seats",
+    "#pinkexpansion:supports",
+    "pinkexpansion:lattice"
+  ]
+}

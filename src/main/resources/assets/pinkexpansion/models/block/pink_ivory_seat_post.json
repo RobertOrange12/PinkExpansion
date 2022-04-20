@@ -1,0 +1,7 @@
+{
+  "parent": "decorative_blocks:custom/seat_post",
+  "textures": {
+    "particle": "pinkexpansion:block/pink_ivory_seat",
+    "texture": "pinkexpansion:block/pink_ivory_seat"
+  }
+}

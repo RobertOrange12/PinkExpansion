@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pinkexpansion:block/pink_ivory_sapling"
+  }
+}

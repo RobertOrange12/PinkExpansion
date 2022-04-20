@@ -1,0 +1,14 @@
+{
+  "type": "environmental:sawing",
+  "ingredient": {
+    "tag": "pinkexpansion:pink_ivory_logs"
+  },
+  "result": "pinkexpansion:pink_ivory_pressure_plate",
+  "count": 2,
+  "conditions":[
+    {
+      "type":"forge:mod_loaded",
+      "modid":"environmental"
+    }
+  ]
+}
