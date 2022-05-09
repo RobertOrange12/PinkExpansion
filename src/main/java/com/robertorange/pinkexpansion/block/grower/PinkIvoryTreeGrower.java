@@ -12,6 +12,6 @@ public class PinkIvoryTreeGrower extends AbstractTreeGrower {
     @Nullable
     @Override
     protected Holder<? extends ConfiguredFeature<?, ?>> getConfiguredFeature(Random p_204307_, boolean p_204308_) {
-        return ModConfiguredFeatures.PINK_IVORY_CONFIG;
+        return ModConfiguredFeatures.PINK_IVORY_TREE;
     }
 }

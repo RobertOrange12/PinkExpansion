@@ -1,9 +1,9 @@
 package com.robertorange.pinkexpansion.event;
 
 import com.robertorange.pinkexpansion.block.properties.ModWoodTypes;
-import com.robertorange.pinkexpansion.loot.AddItemModifier;
 import com.robertorange.pinkexpansion.pinkExpansion;
 import com.robertorange.pinkexpansion.registry.ModBlocks;
+import com.robertorange.pinkexpansion.registry.ModOreGeneration;
 import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
@@ -21,12 +21,5 @@ public class ModEventHandler {
         });
         ComposterBlock.COMPOSTABLES.put(ModBlocks.PINK_IVORY_LEAVES.get().asItem(), 0.3F);
         ComposterBlock.COMPOSTABLES.put(ModBlocks.PINK_IVORY_SAPLING.get().asItem(), 0.3F);
-    }
-
-
-
-    @SubscribeEvent
-    public static void registerLootModifiers(RegistryEvent.Register<GlobalLootModifierSerializer<?>> event) {
-        event.getRegistry().register(new AddItemModifier.Serializer().setRegistryName(pinkExpansion.MOD_ID, "add_item"));
     }
 }

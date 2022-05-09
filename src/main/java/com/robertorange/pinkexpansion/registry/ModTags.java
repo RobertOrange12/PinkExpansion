@@ -22,6 +22,8 @@ public class ModTags {
     public static class ModItemTags {
 
         public static final TagKey<Item> PINK_IVORY_LOGS = createTag("pink_ivory_logs");
+        public static final TagKey<Item> ROSE_QUARTZ_ORES = createTag("rose_quartz_ores");
+
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(new ResourceLocation(pinkExpansion.MOD_ID, name));

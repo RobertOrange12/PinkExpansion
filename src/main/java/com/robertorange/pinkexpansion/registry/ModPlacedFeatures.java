@@ -5,7 +5,9 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
+import net.minecraft.data.worldgen.placement.VegetationPlacements;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
@@ -15,13 +17,16 @@ import java.util.List;
 
 public class ModPlacedFeatures {
 
-    public static final Holder<PlacedFeature> PINK_IVORY_TREE = createPlacedFeature("pink_ivory_tree", ModConfiguredFeatures.PINK_IVORY_CONFIG, List.of(PlacementUtils.countExtra(0, 0.05F, 1), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0), PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, BlockPredicateFilter.forPredicate(BlockPredicate.wouldSurvive(ModBlocks.PINK_IVORY_SAPLING.get().defaultBlockState(), BlockPos.ZERO)), BiomeFilter.biome()));
+    public static final Holder<PlacedFeature> PINK_IVORY_PLACED = PlacementUtils.register("pink_ivory_placed",
+            ModConfiguredFeatures.PINK_IVORY_TREE, VegetationPlacements.treePlacement(
+                    PlacementUtils.countExtra(3, 0.1f, 2)));
+
+    public static final Holder<PlacedFeature> ROSE_QUARTZ_ORE_PLACED = PlacementUtils.register("rose_quartz_ore_placed",
+            ModConfiguredFeatures.ROSE_QUARTZ_ORE, ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
+                    HeightRangePlacement.uniform(VerticalAnchor.bottom(), VerticalAnchor.absolute(100))));
 
     public static <FC extends FeatureConfiguration> Holder<PlacedFeature> createPlacedFeature(String id, Holder<ConfiguredFeature<FC, ?>> feature, List<PlacementModifier> placementModifiers) {
         return BuiltinRegistries.register(BuiltinRegistries.PLACED_FEATURE, new ResourceLocation(pinkExpansion.MOD_ID), new PlacedFeature(Holder.hackyErase(feature), List.copyOf(placementModifiers)));
     }
 
-    public static <FC extends FeatureConfiguration> Holder<PlacedFeature> createPlacedFeature(String id, Holder<ConfiguredFeature<FC, ?>> feature, PlacementModifier... placementModifiers) {
-        return createPlacedFeature(id, feature, List.of(placementModifiers));
     }
-}

@@ -26,8 +26,8 @@ public class ModBlocks {
                 new Item.Properties().tab(pinkExpansion.TAB)));
     }
 
-    //Madera Rosa
-
+    //PINK IVORY
+    //Wood and Logs
     public static final RegistryObject<RotatedPillarBlock> PINK_IVORY_LOG = registerBlock("pink_ivory_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG))
     );
@@ -41,22 +41,22 @@ public class ModBlocks {
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD))
     );
 
-    //letrero
+    //Sign
     public static final RegistryObject<ModStandingSignBlock> PINK_IVORY_SIGN = BLOCKS.register("pink_ivory_sign", () -> new ModStandingSignBlock(BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD), ModWoodTypes.PINK_IVORY));
     public static final RegistryObject<ModWallSignBlock> PINK_IVORY_WALL_SIGN = BLOCKS.register("pink_ivory_wall_sign", () -> new ModWallSignBlock(BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD).dropsLike(PINK_IVORY_SIGN.get()), ModWoodTypes.PINK_IVORY));
 
 
-    //escalera
+    //Stairs
     public static final RegistryObject<StairBlock> PINK_IVORY_STAIRS = registerBlock("pink_ivory_stairs",
             () -> new StairBlock(() -> ModBlocks.PINK_IVORY_PLANKS.get().defaultBlockState(),
                     BlockBehaviour.Properties.of(Material.WOOD).strength(5f).requiresCorrectToolForDrops()));
 
-    //slab
+    //Slab
     public static final RegistryObject<SlabBlock> PINK_IVORY_SLAB = registerBlock("pink_ivory_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(5f).requiresCorrectToolForDrops()));
 
-    //vallas
+    //Fences
     public static final RegistryObject<FenceBlock> PINK_IVORY_FENCE = registerBlock("pink_ivory_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(5f).requiresCorrectToolForDrops()));
@@ -65,38 +65,46 @@ public class ModBlocks {
             () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(5f).requiresCorrectToolForDrops()));
 
-    //boton
+    //Button
     public static final RegistryObject<WoodButtonBlock> PINK_IVORY_BUTTON = registerBlock("pink_ivory_button",
             () -> new WoodButtonBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(5f).requiresCorrectToolForDrops().noCollission()));
 
-    //placa de presion
+    //Pressure Plate
     public static final RegistryObject<PressurePlateBlock> PINK_IVORY_PRESSURE_PLATE = registerBlock("pink_ivory_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(5f).requiresCorrectToolForDrops()));
 
-    //planks
+    //Planks
     public static final RegistryObject<Block> PINK_IVORY_PLANKS = registerBlock("pink_ivory_planks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
-    //hojas
+    //Leafs
     public static final RegistryObject<LeavesBlock> PINK_IVORY_LEAVES = registerBlock("pink_ivory_leaves", () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
 
 
-    //puerta
+    //Door
     public static final RegistryObject<DoorBlock> PINK_IVORY_DOOR = registerBlock("pink_ivory_door",
             () -> new DoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(5f).requiresCorrectToolForDrops().noOcclusion()));
 
-    //trampilla
+    //Trapdoor
     public static final RegistryObject<TrapDoorBlock> PINK_IVORY_TRAPDOOR = registerBlock("pink_ivory_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(5f).requiresCorrectToolForDrops().noOcclusion()));
 
-    //semilla
+    //Seed
     public static final RegistryObject<SaplingBlock> PINK_IVORY_SAPLING = registerBlock("pink_ivory_sapling", () -> new SaplingBlock(new PinkIvoryTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     //ROSE GOLD
     public static final RegistryObject<Block> ROSE_GOLD_BLOCK = registerBlock("rose_gold_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK)));
+
+    //ROSE QUARTZ
+
+    //Rose quartz ore
+    public static final RegistryObject<Block> ROSE_QUARTZ_ORE = registerBlock("rose_quartz_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> DEEPSLATE_ROSE_QUARTZ_ORE = registerBlock("deepslate_rose_quartz_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(4f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> ROSE_QUARTZ_BLOCK = registerBlock("rose_quartz_block", () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(2f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

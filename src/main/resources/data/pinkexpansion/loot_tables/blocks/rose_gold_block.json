@@ -9,6 +9,11 @@
           "type": "minecraft:item",
           "name": "pinkexpansion:rose_gold_block"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

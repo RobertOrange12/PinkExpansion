@@ -22,9 +22,11 @@ public class ModItems {
     public static final RegistryObject<Item> ROSE_GOLD_ORANGE = ITEMS.register("rose_gold_orange", () -> new Item(new Item.Properties().tab(pinkExpansion.TAB).rarity(Rarity.RARE).food(ModFoods.ROSE_GOLD_ORANGE)));
     public static final RegistryObject<Item> ENCHANTED_ROSE_GOLD_ORANGE = ITEMS.register("enchanted_rose_gold_orange", () -> new EnchantedRoseGoldOrange(new Item.Properties().tab(pinkExpansion.TAB).rarity(Rarity.EPIC).food(ModFoods.ENCHANTED_ROSE_GOLD_ORANGE)));
 
-
     public static final RegistryObject<Item> ROSE_GOLD_INGOT = ITEMS.register("rose_gold_ingot", () -> new Item((new Item.Properties()).tab(pinkExpansion.TAB)));
     public static final RegistryObject<Item> ROSE_GOLD_NUGGET = ITEMS.register("rose_gold_nugget", () -> new Item((new Item.Properties()).tab(pinkExpansion.TAB)));
+
+    public static final RegistryObject<Item> ROSE_QUARTZ = ITEMS.register("rose_quartz", () -> new Item((new Item.Properties()).tab(pinkExpansion.TAB)));
+
 
 }
 

@@ -19,7 +19,7 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'maven-publish'
 
 
-version = '0.8.0'
+version = '0.9.0'
 group = 'com.robertorange.pinkexpansion'
 archivesBaseName = 'PinkExpansion'
 
@@ -117,10 +117,10 @@ dependencies {
 
     implementation fg.deobf("curse.maven:geckolib-388172:3734768")
     implementation fg.deobf("curse.maven:decorativeblocks-362528:3697638")
-    implementation fg.deobf("curse.maven:farmersdelight-398521:3739914")
+    implementation fg.deobf("curse.maven:farmersdelight-398521:3765351")
 
     implementation fg.deobf("curse.maven:autoreglib-250363:3642382")
-    implementation fg.deobf("curse.maven:quark-243121:3740897")
+    implementation fg.deobf("curse.maven:quark-243121:3783383")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 

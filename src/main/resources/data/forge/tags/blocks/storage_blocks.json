@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#pinkexpansion:storage_blocks/rose_quartz_block",
+    "#pinkexpansion:storage_blocks/rose_gold_block"
+  ]
+}

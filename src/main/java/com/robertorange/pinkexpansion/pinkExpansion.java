@@ -8,9 +8,8 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -30,9 +29,10 @@ public class pinkExpansion{
     };
 
     public pinkExpansion() {
-        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ModConfiguration.COMMON_CONFIG);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::commonSetup);
+
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModBlocks.BLOCKS.register(bus);
         ModItems.ITEMS.register(bus);
@@ -40,9 +40,18 @@ public class pinkExpansion{
         ModBlockEntityTypes.BLOCK_ENTITY_TYPES.register(bus);
         ModCompat.init();
 
-        Regions.register(new PinkRegion(new ResourceLocation(MOD_ID, "overworld"), 2));
+
 
         MinecraftForge.EVENT_BUS.register(this);
 
+
     }
+
+    private void commonSetup(final FMLCommonSetupEvent event)
+    {
+        event.enqueueWork(() ->
+        {
+            Regions.register(new PinkRegion(new ResourceLocation(MOD_ID, "overworld"), 2));
+            });
+     }
 }

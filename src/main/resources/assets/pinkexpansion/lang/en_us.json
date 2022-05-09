@@ -31,7 +31,9 @@
   "block.pinkexpansion.pink_ivory_support": "Pink Ivory Support",
   "block.pinkexpansion.pink_ivory_cabinet": "Pink Ivory Cabinet",
   "block.pinkexpansion.orange_crate": "Orange Crate",
-
+  "block.pinkexpansion.rose_quartz_ore": "Rose Quartz Ore",
+  "block.pinkexpansion.deepslate_rose_quartz_ore": "Deepslate Rose Quartz Ore",
+  "block.pinkexpansion.rose_quartz_block": "Rose Quartz Block",
 
   "item.pinkexpansion.pink_ivory_boat": "Pink Ivory Boat",
   "item.pinkexpansion.rose_gold_ingot": "Rose Gold Ingot",
@@ -40,8 +42,8 @@
   "item.pinkexpansion.enchanted_rose_gold_orange": "Enchanted Rose Gold Orange",
   "item.pinkexpansion.orange": "Orange",
   "item.pinkexpansion.orange_juice": "Orange Juice",
-
+  "item.pinkexpansion.rose_quartz": "Rose Quartz",
+  "item.pinkexpansion.rose_quartz_mystical_water": "Rose Quartz Mystical Water",
 
   "itemGroup.pinkexpansion": "Pink Expansion"
-
 }

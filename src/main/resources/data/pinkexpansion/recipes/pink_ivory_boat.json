@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pinkexpansion:pink_ivory_planks"
+    }
+  },
+  "result": {
+    "item": "pinkexpansion:pink_ivory_boat"
+  }
+}
