@@ -19,7 +19,7 @@ public class ModPlacedFeatures {
 
     public static final Holder<PlacedFeature> PINK_IVORY_PLACED = PlacementUtils.register("pink_ivory_placed",
             ModConfiguredFeatures.PINK_IVORY_TREE, VegetationPlacements.treePlacement(
-                    PlacementUtils.countExtra(3, 0.1f, 2)));
+                    PlacementUtils.countExtra(1, 0.1f, 0)));
 
     public static final Holder<PlacedFeature> ROSE_QUARTZ_ORE_PLACED = PlacementUtils.register("rose_quartz_ore_placed",
             ModConfiguredFeatures.ROSE_QUARTZ_ORE, ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk

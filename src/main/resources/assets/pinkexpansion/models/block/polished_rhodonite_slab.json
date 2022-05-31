@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "pinkexpansion:block/polished_rhodonite",
+        "top": "pinkexpansion:block/polished_rhodonite",
+        "side": "pinkexpansion:block/polished_rhodonite"
+    }
+}

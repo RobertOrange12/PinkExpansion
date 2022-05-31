@@ -34,6 +34,18 @@
   "block.pinkexpansion.rose_quartz_ore": "Mineral de cuarzo rosa",
   "block.pinkexpansion.deepslate_rose_quartz_ore": "Mineral de cuarzo rosa de pizarra profunda",
   "block.pinkexpansion.rose_quartz_block": "Bloque de cuarzo rosa",
+  "block.pinkexpansion.rhodonite": "Rodonita",
+  "block.pinkexpansion.rhodonite_stairs": "Escaleras de rodonita",
+  "block.pinkexpansion.rhodonite_slab": "Losa de rodonita",
+  "block.pinkexpansion.rhodonite_wall": "Pared de rodonita",
+  "block.pinkexpansion.polished_rhodonite": "Rodonita pulida",
+  "block.pinkexpansion.polished_rhodonite_stairs": "Escaleras de rodonita pulida",
+  "block.pinkexpansion.polished_rhodonite_slab": "Losa de rodonita pulida",
+  "block.pinkexpansion.polished_rhodonite_wall": "Pared de rodonita pulida",
+  "block.pinkexpansion.rhodonite_bricks": "Polished Rhodonite Bricks",
+  "block.pinkexpansion.rhodonite_brick_stairs": "Polished Rhodonite Brick Stairs",
+  "block.pinkexpansion.rhodonite_brick_slab": "Polished Rhodonite Brick Slab",
+  "block.pinkexpansion.rhodonite_brick_wall": "Polished Rhodonite Brick Wall",
 
   "item.pinkexpansion.pink_ivory_boat": "Barca de márfil rosa",
   "item.pinkexpansion.rose_gold_ingot": "Lingote de oro rosa",
@@ -44,6 +56,19 @@
   "item.pinkexpansion.orange_juice": "Zumo de naranja",
   "item.pinkexpansion.rose_quartz": "Cuarzo Rosa",
   "item.pinkexpansion.rose_quartz_mystical_water": "Agua mistica de cuarzo rosa",
+
+  "item.pinkexpansion.rose_gold_pickaxe": "Pico de oro rosa",
+  "item.pinkexpansion.rose_gold_axe": "Hacha de oro rosa",
+  "item.pinkexpansion.rose_gold_shovel": "Pala de oro rosa",
+  "item.pinkexpansion.rose_gold_hoe": "Azada de oro rosa",
+  "item.pinkexpansion.rose_gold_sword": "Espada de oro rosa",
+
+  "item.pinkexpansion.rose_gold_helmet": "Yelmo de oro rosa",
+  "item.pinkexpansion.rose_gold_chestplate": "Pechera de oro rosa",
+  "item.pinkexpansion.rose_gold_leggings": "Grebas de oro rosa",
+  "item.pinkexpansion.rose_gold_boots": "Botas de oro rosa",
+
+  "item.pinkexpansion.rose_gold_horse_armor": "Armadura de oro rosa para caballo",
 
   "itemGroup.pinkexpansion": "Expansion Rosa"
 }

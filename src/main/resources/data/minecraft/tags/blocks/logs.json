@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "#pinkexpansion:pink_ivory_logs"
+    "#pinkexpansion:pink_ivory_logs",
+
+    {
+      "id": "#pinkexpansion:pink_ivory_beams",
+      "required": "false"
+    }
   ]
 }

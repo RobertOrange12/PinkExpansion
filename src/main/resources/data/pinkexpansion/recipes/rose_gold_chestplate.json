@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "p p",
+        "ppp",
+        "ppp"
+    ],
+    "key": {
+        "p": {
+            "item": "pinkexpansion:rose_gold_ingot"
+        }
+    },
+    "result": {
+        "item": "pinkexpansion:rose_gold_chestplate",
+        "count": 1
+    }
+}

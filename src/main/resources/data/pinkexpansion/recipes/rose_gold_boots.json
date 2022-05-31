@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "p p",
+        "p p"
+    ],
+    "key": {
+        "p": {
+            "item": "pinkexpansion:rose_gold_ingot"
+        }
+    },
+    "result": {
+        "item": "pinkexpansion:rose_gold_boots",
+        "count": 1
+    }
+}

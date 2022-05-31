@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "p",
+        "p",
+        "/"
+    ],
+    "key": {
+        "p": {
+            "item": "pinkexpansion:rose_gold_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "pinkexpansion:rose_gold_sword",
+        "count": 1
+    }
+}

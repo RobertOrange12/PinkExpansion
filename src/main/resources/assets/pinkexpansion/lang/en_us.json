@@ -34,6 +34,18 @@
   "block.pinkexpansion.rose_quartz_ore": "Rose Quartz Ore",
   "block.pinkexpansion.deepslate_rose_quartz_ore": "Deepslate Rose Quartz Ore",
   "block.pinkexpansion.rose_quartz_block": "Rose Quartz Block",
+  "block.pinkexpansion.rhodonite": "Rhodonite",
+  "block.pinkexpansion.rhodonite_stairs": "Rhodonite Stairs",
+  "block.pinkexpansion.rhodonite_slab": "Rhodonite Slab",
+  "block.pinkexpansion.rhodonite_wall": "Rhodonite Wall",
+  "block.pinkexpansion.polished_rhodonite": "Polished Rhodonite",
+  "block.pinkexpansion.polished_rhodonite_stairs": "Polished Rhodonite Stairs",
+  "block.pinkexpansion.polished_rhodonite_slab": "Polished Rhodonite Slab",
+  "block.pinkexpansion.polished_rhodonite_wall": "Polished Rhodonite Wall",
+  "block.pinkexpansion.rhodonite_bricks": "Polished Rhodonite Bricks",
+  "block.pinkexpansion.rhodonite_brick_stairs": "Polished Rhodonite Brick Stairs",
+  "block.pinkexpansion.rhodonite_brick_slab": "Polished Rhodonite Brick Slab",
+  "block.pinkexpansion.rhodonite_brick_wall": "Polished Rhodonite Brick Wall",
 
   "item.pinkexpansion.pink_ivory_boat": "Pink Ivory Boat",
   "item.pinkexpansion.rose_gold_ingot": "Rose Gold Ingot",
@@ -44,6 +56,19 @@
   "item.pinkexpansion.orange_juice": "Orange Juice",
   "item.pinkexpansion.rose_quartz": "Rose Quartz",
   "item.pinkexpansion.rose_quartz_mystical_water": "Rose Quartz Mystical Water",
+
+  "item.pinkexpansion.rose_gold_pickaxe": "Rose Gold Pickaxe",
+  "item.pinkexpansion.rose_gold_axe": "Rose Gold Axe",
+  "item.pinkexpansion.rose_gold_shovel": "Rose Gold Shovel",
+  "item.pinkexpansion.rose_gold_hoe": "Rose Gold Hoe",
+  "item.pinkexpansion.rose_gold_sword": "Rose Gold Sword",
+
+  "item.pinkexpansion.rose_gold_helmet": "Rose Gold Helmet",
+  "item.pinkexpansion.rose_gold_chestplate": "Rose Gold Chestplate",
+  "item.pinkexpansion.rose_gold_leggings": "Rose Gold Leggings",
+  "item.pinkexpansion.rose_gold_boots": "Rose Gold Boots",
+
+  "item.pinkexpansion.rose_gold_horse_armor": "Rose Gold Horse Armor",
 
   "itemGroup.pinkexpansion": "Pink Expansion"
 }

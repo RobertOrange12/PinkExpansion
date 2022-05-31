@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "pinkexpansion:pink_ivory_slab"
+    "pinkexpansion:pink_ivory_slab",
+    "pinkexpansion:rhodonite_slab",
+    "pinkexpansion:polished_rhodonite_slab",
+    {
+      "id": "pinkexpansion:rhodonite_brick_slab",
+      "required": "false"
+    }
   ]
 }

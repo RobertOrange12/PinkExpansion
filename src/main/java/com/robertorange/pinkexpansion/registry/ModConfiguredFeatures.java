@@ -24,10 +24,10 @@ public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> PINK_IVORY_TREE =
             FeatureUtils.register("pink_ivory", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                     BlockStateProvider.simple(ModBlocks.PINK_IVORY_LOG.get()),
-                    new StraightTrunkPlacer(5, 6, 3),
+                    new StraightTrunkPlacer(3, 1, 1),
                     BlockStateProvider.simple(ModBlocks.PINK_IVORY_LEAVES.get()),
-                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 4),
-                    new TwoLayersFeatureSize(1, 0, 2)).build());
+                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3),
+                    new TwoLayersFeatureSize(1, 10, 1)).build());
 
     public static final Holder<PlacedFeature> PINK_IVORY_CHECKED = PlacementUtils.register("pink_ivory_checked", PINK_IVORY_TREE,
             PlacementUtils.filteredByBlockSurvival(ModBlocks.PINK_IVORY_SAPLING.get()));
@@ -35,7 +35,7 @@ public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> PINK_IVORY_SPAWN =
             FeatureUtils.register("pink_ivory_spawn", Feature.RANDOM_SELECTOR,
                     new RandomFeatureConfiguration(List.of(new WeightedPlacedFeature(PINK_IVORY_CHECKED,
-                            0.5F)), PINK_IVORY_CHECKED));
+                            0.3F)), PINK_IVORY_CHECKED));
 
 
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_ROSE_QUARTZ_ORES = List.of(

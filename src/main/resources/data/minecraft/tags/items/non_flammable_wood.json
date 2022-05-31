@@ -1,9 +1,21 @@
 {
   "replace": false,
   "values": [
-    "pinkexpansion:pink_ivory_beam",
-    "pinkexpansion:pink_ivory_palisade",
-    "pinkexpansion:pink_ivory_seat",
-    "pinkexpansion:pink_ivory_support"
+    {
+      "id": "#pinkexpansion:beams",
+      "required": "false"
+    },
+    {
+      "id": "#pinkexpansion:palisades",
+      "required": "false"
+    },
+    {
+      "id": "#pinkexpansion:seats",
+      "required": "false"
+    },
+    {
+      "id": "#pinkexpansion:supports",
+      "required": "false"
+    }
   ]
 }

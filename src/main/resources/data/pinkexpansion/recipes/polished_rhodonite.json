@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "pinkexpansion:rhodonite"
+    }
+  },
+  "result": {
+    "item": "pinkexpansion:polished_rhodonite",
+    "count": 4
+  }
+} 

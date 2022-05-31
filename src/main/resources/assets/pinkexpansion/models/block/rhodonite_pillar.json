@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "pinkexpansion:block/rhodonite_pillar_top",
+        "side": "pinkexpansion:block/rhodonite_pillar"
+    }
+}

@@ -1,10 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#pinkexpansion:ores/rose_gold_ores",
-    "minecraft:rose_gold_block",
-    "minecraft:rose_gold_ingot",
-    "minecraft:rose_gold_orange",
-    "minecraft:enchanted_rose_gold_orange"
+    "pinkexpansion:rose_gold_block",
+    "pinkexpansion:rose_gold_ingot",
+    "pinkexpansion:rose_gold_orange",
+    "pinkexpansion:enchanted_rose_gold_orange"
   ]
 }
