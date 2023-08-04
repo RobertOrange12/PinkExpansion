@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.jetbrains.annotations.NotNull;
 import terrablender.api.Regions;
 
 @Mod("pinkexpansion")
@@ -23,7 +24,7 @@ public class pinkExpansion{
     public static final String MOD_ID = "pinkexpansion";
     public static final CreativeModeTab TAB = new CreativeModeTab(MOD_ID) {
         @Override
-        public ItemStack makeIcon() {
+        public @NotNull ItemStack makeIcon() {
             return new ItemStack(ModBlocks.ROSE_GOLD_BLOCK.get());
         }
     };

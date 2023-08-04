@@ -17,6 +17,8 @@ import net.minecraft.world.phys.HitResult;
 import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.registries.ForgeRegistries;
 import com.robertorange.pinkexpansion.pinkExpansion;
+import org.jetbrains.annotations.NotNull;
+
 public class ModBoat extends Boat {
     private static final EntityDataAccessor<String> WOOD_TYPE = SynchedEntityData.defineId(ModBoat.class, EntityDataSerializers.STRING);
 
@@ -61,11 +63,9 @@ public class ModBoat extends Boat {
     }
 
     @Override
-    public Item getDropItem() {
-        switch(this.getWoodType()) {
-            default:
-                return ModItems.PINK_IVORY_BOAT.get();
-        }
+    public @NotNull Item getDropItem() {
+        this.getWoodType();
+        return ModItems.PINK_IVORY_BOAT.get();
     }
 
     @Override

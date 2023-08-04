@@ -31,7 +31,7 @@ by RobertOrange
 [[dependencies.pinkexpansion]]
     modId = "terrablender"
     mandatory = true
-    versionRange = "[1.18.2-1.1.0.99,)"
+    versionRange = "[1.2.0,)"
     ordering = "BEFORE"
     side = "BOTH"
 

@@ -5,7 +5,6 @@ import com.robertorange.pinkexpansion.compat.farmersdelight.FDCompat;
 import com.robertorange.pinkexpansion.compat.quark.QuarkCompat;
 import com.robertorange.pinkexpansion.compat.quark.QuarkCompatClient;
 import com.robertorange.pinkexpansion.compat.quark.QuarkFlagRecipeCondition;
-import com.robertorange.pinkexpansion.registry.ModItems;
 import net.minecraftforge.common.crafting.CraftingHelper;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLLoader;

@@ -36,7 +36,6 @@ public class ModOverworldBiomes {
         BiomeDefaultFeatures.addDefaultSoftDisks(builder);
     }
 
-
     public static Biome PinkIvoryForest() {
         MobSpawnSettings.Builder spawnSettings = new MobSpawnSettings.Builder();
         spawnSettings.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.SHEEP, 12, 4, 4));
@@ -63,9 +62,6 @@ public class ModOverworldBiomes {
         ModDefaultBiomeFeatures.addPinkIvoryTrees(biomeFeatures);
         BiomeDefaultFeatures.addDefaultFlowers(biomeFeatures);
         BiomeDefaultFeatures.addDefaultGrass(biomeFeatures);
-
-
-
 
         return biome(Biome.Precipitation.RAIN, Biome.BiomeCategory.PLAINS, 0.8F, 0.4F, 10943231, 10275021, spawnSettings, biomeFeatures, NORMAL_MUSIC);
     }

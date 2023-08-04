@@ -19,7 +19,7 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'maven-publish'
 
 
-version = '0.10.0'
+version = '1.0.0'
 group = 'com.robertorange.pinkexpansion'
 archivesBaseName = 'PinkExpansion'
 
@@ -112,15 +112,14 @@ repositories {
 
 dependencies {
 
-    minecraft 'net.minecraftforge:forge:1.18.2-40.0.44'
-    implementation fg.deobf('com.github.glitchfiend:TerraBlender-forge:1.18.2-1.1.0.99')
+    minecraft 'net.minecraftforge:forge:1.18.2-40.2.0'
+    implementation fg.deobf('com.github.glitchfiend:TerraBlender-forge:1.18.2-1.2.0.126')
 
-
-    implementation fg.deobf("curse.maven:decorativeblocks-362528:3697638")
-    implementation fg.deobf("curse.maven:farmersdelight-398521:3765351")
+    implementation fg.deobf("curse.maven:decorativeblocks-362528:3965454")
+    implementation fg.deobf("curse.maven:farmersdelight-398521:4679315")
 
     implementation fg.deobf("curse.maven:autoreglib-250363:3642382")
-    implementation fg.deobf("curse.maven:quark-243121:3783383")
+    implementation fg.deobf("curse.maven:quark-243121:3840125")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 

@@ -10,10 +10,10 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class PinkBiomes
 {
-    public static final ResourceKey<Biome> PINK_IVORY_PLAINS = register("pink_ivory_plains");
+    public static final ResourceKey<Biome> PINK_IVORY_PLAINS = register();
 
-    private static ResourceKey<Biome> register(String name)
+    private static ResourceKey<Biome> register()
     {
-        return ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation(pinkExpansion.MOD_ID, name));
+        return ResourceKey.create(Registry.BIOME_REGISTRY, new ResourceLocation(pinkExpansion.MOD_ID, "pink_ivory_plains"));
     }
 }
