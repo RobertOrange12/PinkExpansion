@@ -1,12 +1,6 @@
 {
   "replace": false,
   "values": [
-    "pinkexpansion:rhodonite_wall",
-    "pinkexpansion:polished_rhodonite_wall",
-    {
-      "id": "pinkexpansion:rhodonite_brick_wall",
-      "required": "false"
-    },
     {
       "id": "pinkexpansion:pink_ivory_palisade",
       "required": "false"

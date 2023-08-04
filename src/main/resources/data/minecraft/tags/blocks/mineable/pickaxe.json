@@ -4,44 +4,6 @@
     "pinkexpansion:rose_gold_block",
     "pinkexpansion:rose_quartz_block",
     "pinkexpansion:rose_quartz_ore",
-    "pinkexpansion:deepslate_rose_quartz_ore",
-
-    "pinkexpansion:rhodonite",
-    "pinkexpansion:rhodonite_stairs",
-    "pinkexpansion:rhodonite_slab",
-    "pinkexpansion:rhodonite_wall",
-
-    "pinkexpansion:polished_rhodonite",
-    "pinkexpansion:polished_rhodonite_stairs",
-    "pinkexpansion:polished_rhodonite_slab",
-    "pinkexpansion:polished_rhodonite_wall",
-    {
-      "id": "pinkexpansion:polished_rhodonite_bricks",
-      "required": "false"
-    },
-    {
-      "id": "pinkexpansion:polished_rhodonite_brick_stairs",
-      "required": "false"
-    },
-    {
-      "id": "pinkexpansion:polished_rhodonite_brick_slab",
-      "required": "false"
-    },
-    {
-      "id": "pinkexpansion:polished_rhodonite_brick_wall",
-      "required": "false"
-    },
-    {
-      "id": "pinkexpansion:rhodonite_vertical_slab",
-      "required": "false"
-    },
-    {
-      "id": "pinkexpansion:polished_rhodonite_vertical_slab",
-      "required": "false"
-    },
-    {
-      "id": "pinkexpansion:polished_rhodonite_brick_vertical_slab",
-      "required": "false"
-    }
+    "pinkexpansion:deepslate_rose_quartz_ore"
   ]
 }

@@ -106,37 +106,6 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ROSE_QUARTZ_BLOCK = registerBlock("rose_quartz_block", () -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(2f).requiresCorrectToolForDrops()));
 
-    //Rhodonite
-    public static final RegistryObject<Block> RHODONITE = registerBlock("rhodonite", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
-
-    public static final RegistryObject<StairBlock> RHODONITE_STAIRS = registerBlock("rhodonite_stairs",
-            () -> new StairBlock(() -> ModBlocks.RHODONITE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()));
-
-    public static final RegistryObject<SlabBlock> RHODONITE_SLAB = registerBlock("rhodonite_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()));
-
-    public static final RegistryObject<Block> RHODONITE_WALL = registerBlock("rhodonite_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()));
-
-
-    //Polished Rhodonite
-    public static final RegistryObject<Block> POLISHED_RHODONITE = registerBlock("polished_rhodonite", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
-
-    public static final RegistryObject<StairBlock> POLISHED_RHODONITE_STAIRS = registerBlock("polished_rhodonite_stairs",
-            () -> new StairBlock(() -> ModBlocks.RHODONITE.get().defaultBlockState(),
-                    BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()));
-
-    public static final RegistryObject<SlabBlock> POLISHED_RHODONITE_SLAB = registerBlock("polished_rhodonite_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()));
-
-    public static final RegistryObject<Block> POLISHED_RHODONITE_WALL = registerBlock("polished_rhodonite_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()));
-
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = ModBlocks.BLOCKS.register(name, block);
         ModItems.ITEMS.register(name, () -> new BlockItem(toReturn.get(), new Item.Properties().tab(pinkExpansion.TAB)));

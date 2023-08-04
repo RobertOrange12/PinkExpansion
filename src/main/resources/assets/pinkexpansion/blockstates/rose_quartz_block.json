@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pinkexpansion:block/rose_quartz_block" }
+    "": {
+      "model": "pinkexpansion:block/rose_quartz_block"
+    }
   }
 }

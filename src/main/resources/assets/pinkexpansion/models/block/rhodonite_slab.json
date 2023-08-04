@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab",
-    "textures": {
-        "bottom": "pinkexpansion:block/rhodonite",
-        "top": "pinkexpansion:block/rhodonite",
-        "side": "pinkexpansion:block/rhodonite"
-    }
-}

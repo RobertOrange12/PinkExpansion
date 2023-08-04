@@ -1,6 +1,6 @@
-{   
-    "parent": "quark:block/leaf_carpet",
-    "textures": {
-        "all": "pinkexpansion:block/pink_ivory_leaves"
-    }
+{
+  "parent": "quark:block/leaf_carpet",
+  "textures": {
+    "all": "pinkexpansion:block/pink_ivory_leaves"
+  }
 }

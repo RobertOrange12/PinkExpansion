@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "type=bottom": { "model": "pinkexpansion:block/polished_rhodonite_slab" },
-        "type=top": { "model": "pinkexpansion:block/polished_rhodonite_slab_top" },
-        "type=double": { "model": "pinkexpansion:block/polished_rhodonite" }
-    }
-}

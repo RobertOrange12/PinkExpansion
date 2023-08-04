@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "axis=y":  { "model": "pinkexpansion:block/rhodonite_pillar" },
-        "axis=z":   { "model": "pinkexpansion:block/rhodonite_pillar", "x": 90 },
-        "axis=x":   { "model": "pinkexpansion:block/rhodonite_pillar", "x": 90, "y": 90 }
-    }
-}

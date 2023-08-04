@@ -1,12 +1,6 @@
 {
   "replace": false,
   "values": [
-    "pinkexpansion:pink_ivory_stairs",
-    "pinkexpansion:rhodonite_stairs",
-    "pinkexpansion:polished_rhodonite_stairs",
-    {
-      "id": "pinkexpansion:rhodonite_brick_stairs",
-      "required": "false"
-    }
+    "pinkexpansion:pink_ivory_stairs"
   ]
 }

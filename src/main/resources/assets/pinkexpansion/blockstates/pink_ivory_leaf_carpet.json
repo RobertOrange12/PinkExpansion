@@ -1,5 +1,7 @@
 {
-    "variants": {
-        "": { "model": "pinkexpansion:block/pink_ivory_leaf_carpet" }
+  "variants": {
+    "": {
+      "model": "pinkexpansion:block/pink_ivory_leaf_carpet"
     }
+  }
 }

@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pinkexpansion:block/pink_ivory_chest" }
+    "": {
+      "model": "pinkexpansion:block/pink_ivory_chest"
+    }
   }
 }

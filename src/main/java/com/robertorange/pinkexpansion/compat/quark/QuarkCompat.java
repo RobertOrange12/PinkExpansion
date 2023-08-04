@@ -4,7 +4,6 @@ import com.robertorange.pinkexpansion.compat.quark.block.*;
 import com.robertorange.pinkexpansion.compat.quark.block.entity.ModChestBlockEntity;
 import com.robertorange.pinkexpansion.compat.quark.block.entity.ModTrappedChestBlockEntity;
 import com.robertorange.pinkexpansion.compat.quark.item.ModChestBlockItem;
-import com.robertorange.pinkexpansion.pinkExpansion;
 import com.robertorange.pinkexpansion.registry.ModBlockEntityTypes;
 import com.robertorange.pinkexpansion.registry.ModBlocks;
 import com.robertorange.pinkexpansion.registry.ModItems;
@@ -14,7 +13,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
@@ -29,14 +27,6 @@ public class QuarkCompat {
     public static final RegistryObject<Block> PINK_IVORY_HEDGE;
     public static final RegistryObject<Block> PINK_IVORY_CHEST;
     public static final RegistryObject<Block> PINK_IVORY_TRAPPED_CHEST;
-    public static final RegistryObject<Block> RHODONITE_BRICKS;
-
-    public static final RegistryObject<Block> RHODONITE_BRICK_STAIRS;
-
-    public static final RegistryObject<Block> RHODONITE_BRICK_SLAB;
-
-    public static final RegistryObject<Block> RHODONITE_BRICK_WALL;
-
 
     public static final RegistryObject<BlockEntityType<ModChestBlockEntity>> CHEST;
     public static final RegistryObject<BlockEntityType<ModTrappedChestBlockEntity>> TRAPPED_CHEST;
@@ -51,12 +41,6 @@ public class QuarkCompat {
         PINK_IVORY_HEDGE = registerBlock("pink_ivory_hedge", HedgeBlock::new, CreativeModeTab.TAB_DECORATIONS);
         PINK_IVORY_CHEST = registerChest("pink_ivory_chest", () -> new ModChestBlock(ChestVariant.PINK_IVORY));
         PINK_IVORY_TRAPPED_CHEST = registerChest("pink_ivory_trapped_chest", () -> new ModTrappedChestBlock(ChestVariant.PINK_IVORY_TRAPPED));
-
-        //RHODONITE
-        RHODONITE_BRICKS = registerBlock("rhodonite_bricks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)), pinkExpansion.TAB);
-        RHODONITE_BRICK_STAIRS = registerBlock("rhodonite_brick_stairs", () -> new StairBlock(() -> ModBlocks.RHODONITE.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), pinkExpansion.TAB);
-        RHODONITE_BRICK_SLAB = registerBlock("rhodonite_brick_slab", () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), pinkExpansion.TAB);
-        RHODONITE_BRICK_WALL = registerBlock("rhodonite_brick_wall", () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), pinkExpansion.TAB);
 
         CHEST = ModBlockEntityTypes.BLOCK_ENTITY_TYPES.register("chest", () -> BlockEntityType.Builder.of(ModChestBlockEntity::new, PINK_IVORY_CHEST.get()).build(null));
         TRAPPED_CHEST = ModBlockEntityTypes.BLOCK_ENTITY_TYPES.register("trapped_chest", () -> BlockEntityType.Builder.of(ModTrappedChestBlockEntity::new, PINK_IVORY_TRAPPED_CHEST.get()).build(null));

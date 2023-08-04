@@ -1,8 +1,0 @@
-{
-    "parent": "block/inner_stairs",
-    "textures": {
-        "bottom": "pinkexpansion:block/rhodonite_bricks",
-        "top": "pinkexpansion:block/rhodonite_bricks",
-        "side": "pinkexpansion:block/rhodonite_bricks"
-    }
-}

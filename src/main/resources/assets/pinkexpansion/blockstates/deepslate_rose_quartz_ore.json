@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "pinkexpansion:block/deepslate_rose_quartz_ore" }
+    "": {
+      "model": "pinkexpansion:block/deepslate_rose_quartz_ore"
+    }
   }
 }
